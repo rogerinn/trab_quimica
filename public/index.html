@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="js/bootstrap.bundle.js">
+    <title>Química</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="alert alert-primary" role="alert">
+            Seja muito bem vindo ao nosso jogo.
+        </div>
+        <ul class="list-group">
+            <li class="list-group-item">
+                <form>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon1" id="equipe">Nomes</span>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Nome da equipe" aria-label="Username"
+                            aria-describedby="basic-addon1">
+                    </div>
+                    <strong>a</strong><br>
+                    <input type="radio" id="question1" value="1" name='question1'
+                        aria-label="Radio button for following text input">
+                    Teste
+                    <br>
+                    <input type="radio" id="question1" name='question1'
+                        aria-label="Radio button for following text input">
+                    Teste
+                    <br>
+                    <input type="radio" id="question1" name='question1'
+                        aria-label="Radio button for following text input">
+                    Teste
+                    <br>
+                    <input type="radio" id="question1" name='question1'
+                        aria-label="Radio button for following text input">
+                    Teste
+                    <br>
+                </form>
+            </li>
+            <li class="list-group-item">
+                <form>
+                    <strong>Teste</strong><br>
+                    <input type="radio" id="question2" name='question1'
+                        aria-label="Radio button for following text input">
+                    Teste
+                    <br>
+                    <input type="radio" id="question2" name='question1'
+                        aria-label="Radio button for following text input">
+                    Teste
+                    <br>
+                    <input type="radio" id="question2" name='question1'
+                        aria-label="Radio button for following text input">
+                    Teste
+                    <br>
+                    <input type="radio" id="question2" name='question1'
+                        aria-label="Radio button for following text input">
+                    Teste
+                    <br>
+                </form>
+            </li>
+            <li class="list-group-item">
+                <form>
+                    <strong>Teste</strong><br>
+                    <input type="radio" id="question3" name='question1'
+                        aria-label="Radio button for following text input">
+                    Teste
+                    <br>
+                    <input type="radio" id="question3" name='question1'
+                        aria-label="Radio button for following text input">
+                    Teste
+                    <br>
+                    <input type="radio" id="question3" name='question1'
+                        aria-label="Radio button for following text input">
+                    Teste
+                    <br>
+                    <input type="radio" id="question3" name='question1'
+                        aria-label="Radio button for following text input">
+                    Teste
+                    <br>
+                    <hr>
+                    <button type="button" class="btn btn-success" onclick="teste()">Enviar respostas</button>
+                </form>
+            </li>
+        </ul>
+        <br>
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            <strong>Muito obrigado por jogar</strong> Nossa equipe agradeçe :D
+        </div>
+        <div class="mx-auto" style="width: 1000px;">
+            <ul class="list-group list-group-horizontal-sm">
+                <li class="list-group-item">Rogério Sandro Pereira Junior</li>
+                <li class="list-group-item">Lauane Sabatovicz</li>
+                <li class="list-group-item">Gabriel Henrique Pereira</li>
+                <li class="list-group-item">Levir Rodrigues</li>
+                <li class="list-group-item">Matheus Figueiró</li>
+            </ul>
+        </div>
+    </div>
+    <script src="./bundle.js"></script>
+    <script>
+        function teste() {
+            var tst = document.querySelector('#question1').value;
+            alert(tst);
+        }
+    </script>
+</body>
+
+</html>
